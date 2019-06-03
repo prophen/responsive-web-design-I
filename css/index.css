@@ -164,10 +164,10 @@ h5 {
 
 /* mobile view */
 @media (max-width: 500px) {
-    .container {
-        width: 100%; 
-        margin: 0;
-    }
+  .container {
+    width: 100%;
+    margin: 0;
+  }
 }
 /* Header Styles */
 
@@ -202,10 +202,10 @@ header nav {
 }
 /* mobile view */
 @media (max-width: 500px) {
-    header nav {
-        flex-direction: column;
-        width: 100%;
-    }
+  header nav {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 header nav a {
@@ -215,20 +215,18 @@ header nav a {
 
 /* mobile view */
 @media (max-width: 500px) {
-
-    header {
-        width: 100%;
-    }
-    header nav a {
-    
-        padding: 20px 0;
-        font-size: 20px;
-        text-align: center;
-        border-top: 1px solid black;
-    }
-    header nav a:last-child {
-        border-bottom: 1px solid black;
-    }
+  header {
+    width: 100%;
+  }
+  header nav a {
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+    border-top: 1px solid black;
+  }
+  header nav a:last-child {
+    border-bottom: 1px solid black;
+  }
 }
 
 header nav a:hover {
@@ -238,6 +236,12 @@ header nav a:hover {
 
 header .logo {
   margin: 28px 0 0 91px;
+}
+/* mobile view */
+@media (max-width: 500px) {
+  .logo {
+    margin: 10px auto;
+  }
 }
 /* tablet header view */
 @media (max-width: 800px) {
@@ -281,6 +285,12 @@ header .logo {
   background: black;
   color: white;
 }
+/* mobile view */
+@media (max-width: 500px) {
+  .cta {
+    margin: 50px auto;
+  }
+}
 
 /* tablet cta view */
 @media (max-width: 800px) {
@@ -310,6 +320,23 @@ header .logo {
 .main-content .top-content {
   display: flex;
 }
+
+/* mobile view */
+@media (max-width: 500px) {
+  .main-content {
+    margin: 15px auto;
+    width: 90%;
+  }
+}
+/* mobile view */
+@media (max-width: 500px) {
+  .top-content,
+  .bottom-content {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
 /* tablet main-content view */
 @media (max-width: 800px) {
   .top-content {
@@ -324,10 +351,27 @@ header .logo {
   }
 }
 
+/* mobile view */
+@media (max-width: 500px) {
+  .top-content .text-content,
+  .bottom-content .text-content {
+    padding: 15px 0;
+    width: 100%;
+  }
+}
 .main-content .middle-img {
   display: block;
-  margin: 30px auto;
+  margin: 15px auto;
 }
+
+/* mobile view */
+@media (max-width: 500px) {
+  .main-content .middle-img {
+    margin: 15px auto;
+    width: 100%;
+  }
+}
+
 /* tablet main-content view */
 @media (max-width: 800px) {
   .middle-img {
@@ -440,3 +484,11 @@ footer {
   }
 }
 
+/* mobile view */
+@media (max-width: 500px) {
+  .contact {
+    width: 95%;
+    padding-top: 20px;
+    margin: 15px;
+  }
+}
