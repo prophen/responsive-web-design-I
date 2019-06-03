@@ -277,6 +277,19 @@ header .logo {
 .main-content .top-content {
   display: flex;
 }
+/* tablet main-content view */
+@media (max-width: 800px) {
+  .top-content {
+    justify-content: space-between;
+  }
+  .top-content .text-content {
+    width: 375px;
+    padding-left: 15px;
+  }
+  .bottom-content .text-content {
+    padding-left: 15px;
+  }
+}
 
 .main-content .middle-img {
   display: block;
@@ -285,7 +298,8 @@ header .logo {
 /* tablet main-content view */
 @media (max-width: 800px) {
   .middle-img {
-    width: 100%;
+    margin: auto;
+    width: 755px;
   }
 }
 
@@ -387,6 +401,12 @@ footer {
   height: 300px;
 }
 
+/* tablet contact view */
+@media (max-width: 800px) {
+  .contact {
+    padding-left: 15px;
+  }
+}
 /* mobile view */
 @media (max-width: 500px) {
 }
